@@ -3,7 +3,6 @@ import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
 import ProductForm from '@/components/admin/ProductForm'
 
-export const runtime = 'edge'
 
 interface Props {
   params: Promise<{ id: string }>

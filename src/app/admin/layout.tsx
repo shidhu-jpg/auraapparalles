@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 
-export const runtime = 'edge'
-
 export const metadata: Metadata = {
   title: 'Admin — Aura Apparels',
   robots: { index: false, follow: false },
