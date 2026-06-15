@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "pages:build": "npx @opennextjs/cloudflare build"
+    "pages:build": "npx @opennextjs/cloudflare build && node -e \"const fs=require('fs');fs.copyFileSync('.open-next/worker.js','.open-next/assets/_worker.js');console.log('Copied worker to Pages output');\""
   },
   "dependencies": {
     "@supabase/ssr": "^0.5.2",
