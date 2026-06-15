@@ -4,6 +4,7 @@ import ProductCard from '@/components/ProductCard'
 import CategoryFilter from '@/components/CategoryFilter'
 import HeroBanner from '@/components/HeroBanner'
 
+export const runtime = 'edge'
 export const dynamic = 'force-dynamic'
 
 interface Props {

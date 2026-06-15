@@ -8,6 +8,8 @@ import Footer from '@/components/Footer'
 
 const geist = Geist({ subsets: ['latin'], variable: '--font-geist' })
 
+export const runtime = 'edge'
+
 export const metadata: Metadata = {
   title: 'Aura Apparels — Fresh Fashion, Fair Swaps',
   description: 'Shop the latest fashion at Aura Apparels. Quality clothing at unbeatable prices.',

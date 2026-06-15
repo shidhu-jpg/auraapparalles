@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { createClient } from '@/lib/supabase/server'
 import AdminActions from './AdminActions'
 
+export const runtime = 'edge'
 export const dynamic = 'force-dynamic'
 
 export default async function AdminDashboard() {

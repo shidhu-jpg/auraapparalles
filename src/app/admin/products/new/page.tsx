@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
 import ProductForm from '@/components/admin/ProductForm'
 
+export const runtime = 'edge'
+
 export default async function NewProductPage() {
   const supabase = await createClient()
   const { data: { user } } = await supabase.auth.getUser()
